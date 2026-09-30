@@ -10,8 +10,8 @@
 </p>
 
 <p align="center">
-  <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=alexandroff103x%40gmail.com&item_name=Support+IllBeBack+macOS+Open+Source+App&currency_code=USD">
-    <img src="https://img.shields.io/badge/Donate-PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white" alt="Donate via PayPal" />
+  <a href="https://buymeacoffee.com/alexandrofc">
+    <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-Support%20Project-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me a Coffee" />
   </a>
 </p>
 
@@ -59,13 +59,12 @@ zsh build_app.sh --app-store
 
 ---
 
-## ☕ Support / Donate (PayPal)
+## ☕ Support the Project
 
 **I'll Be Back** is 100% free and open source, with no ads, no subscriptions, and no paywalls.  
-If this utility saves your AI coding sessions or downloads from being interrupted, you can thank the author with a coffee via **PayPal**:
+If this utility saves your AI coding sessions or downloads from being interrupted, you can thank the author with a coffee:
 
-- 💳 **PayPal Direct Link:** [**Donate via PayPal**](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=alexandroff103x%40gmail.com&item_name=Support+IllBeBack+macOS+Open+Source+App&currency_code=USD)
-- 📧 **PayPal Email:** `alexandroff103x@gmail.com`
+👉 **[buymeacoffee.com/alexandrofc](https://buymeacoffee.com/alexandrofc)**
 
 ---
 
