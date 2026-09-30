@@ -15,6 +15,14 @@
   </a>
 </p>
 
+<p align="center">
+  <img src="Resources/previews/popover_light_duration.png" width="270" alt="Light Mode Duration Tiles" />
+  &nbsp;&nbsp;
+  <img src="Resources/previews/popover_dark_timer.png" width="270" alt="Dark Mode Countdown Timer" />
+  &nbsp;&nbsp;
+  <img src="Resources/previews/popover_dark_settings_cyber.png" width="270" alt="Dark Mode 3-Group Settings" />
+</p>
+
 ---
 
 ## ✨ Features
