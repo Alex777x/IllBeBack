@@ -1,0 +1,43 @@
+name: Build & Verify I'll Be Back
+
+on:
+  push:
+    branches: [ main ]
+    tags: [ 'v*' ]
+  pull_request:
+    branches: [ main ]
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-test:
+    runs-on: macos-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Build Open Source Release Bundle
+        run: zsh build_app.sh
+
+      - name: Run Self-Test Suite
+        run: ./IllBeBack.app/Contents/MacOS/IllBeBack --self-test
+
+      - name: Verify Mac App Store Build Mode (-DAPP_STORE)
+        run: |
+          zsh build_app.sh --app-store
+          ./IllBeBack.app/Contents/MacOS/IllBeBack --self-test
+
+      - name: Package Release Archive on Tag
+        if: startsWith(github.ref, 'refs/tags/v')
+        run: |
+          zsh build_app.sh
+          ditto -c -k --keepParent IllBeBack.app IllBeBack-macOS.zip
+
+      - name: Publish GitHub Release
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: IllBeBack-macOS.zip
+          generate_release_notes: true
