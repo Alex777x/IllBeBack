@@ -68,7 +68,19 @@ If this utility saves your AI coding sessions or downloads from being interrupte
 
 ---
 
+## 🛡️ Clean-Room Implementation & Intellectual Property
+
+**I'll Be Back** was developed from the ground up following strict **Clean-Room Design** principles to ensure complete originality and intellectual property compliance:
+
+- **100% Independent Codebase:** Written entirely from scratch using Swift 6, SwiftUI, and AppKit. Zero reverse engineering, decompilation, copying, or inspection of proprietary code or binaries from existing keep-awake utilities (such as Caffeine, Amphetamine, Caffeinated, or Lungo).
+- **Standard Public macOS APIs:** All functionality is implemented strictly via documented, public Apple APIs (`IOKit.pwr_mgt`, `ServiceManagement.SMAppService`, `UserNotifications`, and Carbon `RegisterEventHotKey`).
+- **Original Vector Art & Design:** All icons, including the Terminator-inspired Cyber-Visor menu bar icon, are original procedural vector paths drawn in code via CoreGraphics and SwiftUI Canvas. No proprietary icons, fonts, or assets were used.
+- **macOS Design Conventions:** Visual hierarchy and layouts adhere strictly to Apple's native macOS Human Interface Guidelines (HIG) and Control Center design patterns.
+
+---
+
 ## 📄 License & Privacy
 
 - **License:** [MIT License](LICENSE) — © 2026 Anatoli Aliaksandrou.
 - **Privacy Policy:** [PRIVACY.md](PRIVACY.md) — Zero data collection, 100% offline.
+
